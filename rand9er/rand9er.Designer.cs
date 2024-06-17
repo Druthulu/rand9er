@@ -163,7 +163,7 @@ namespace rand9er
             this.b_remove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.b_remove.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.b_remove.ForeColor = System.Drawing.Color.White;
-            this.b_remove.Location = new System.Drawing.Point(201, 397);
+            this.b_remove.Location = new System.Drawing.Point(53, 397);
             this.b_remove.Margin = new System.Windows.Forms.Padding(2);
             this.b_remove.Name = "b_remove";
             this.b_remove.Size = new System.Drawing.Size(270, 28);
@@ -197,12 +197,12 @@ namespace rand9er
             this.button_rand.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button_rand.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_rand.ForeColor = System.Drawing.Color.White;
-            this.button_rand.Location = new System.Drawing.Point(485, 375);
+            this.button_rand.Location = new System.Drawing.Point(457, 375);
             this.button_rand.Margin = new System.Windows.Forms.Padding(2);
             this.button_rand.Name = "button_rand";
-            this.button_rand.Size = new System.Drawing.Size(176, 50);
+            this.button_rand.Size = new System.Drawing.Size(204, 50);
             this.button_rand.TabIndex = 2;
-            this.button_rand.Text = "Stitzkin\'s Bag";
+            this.button_rand.Text = "Shake Stitzkin\'s Bag";
             this.button_rand.UseVisualStyleBackColor = false;
             this.button_rand.Click += new System.EventHandler(this.button_rand_Click);
             // 
@@ -275,9 +275,9 @@ namespace rand9er
             this.checkBoxChaos.ForeColor = System.Drawing.Color.White;
             this.checkBoxChaos.Location = new System.Drawing.Point(508, 137);
             this.checkBoxChaos.Name = "checkBoxChaos";
-            this.checkBoxChaos.Size = new System.Drawing.Size(116, 17);
+            this.checkBoxChaos.Size = new System.Drawing.Size(77, 17);
             this.checkBoxChaos.TabIndex = 84;
-            this.checkBoxChaos.Text = "Maximum Chaos";
+            this.checkBoxChaos.Text = "No Logic";
             this.checkBoxChaos.UseVisualStyleBackColor = false;
             this.checkBoxChaos.CheckedChanged += new System.EventHandler(this.checkBoxChaos_CheckedChanged);
             // 
